@@ -25,5 +25,6 @@ module.exports = function makeExchange(currency) {
     if (count[3]!=0){obj.N=count[3]}
     if (count[4]!=0){obj.P=count[4]}
  }
+ 
     return obj;
 }
